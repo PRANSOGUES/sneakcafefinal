@@ -1,0 +1,84 @@
+html, body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+    text-align: center;
+    padding: 0.4rem;
+    margin: 0.6rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.container{
+  padding: 10px;
+  margin: 0px;
+}
+.navbar-nav{
+  margin-left: 10px;
+  padding-top: 10px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Bebas Neue';
+  letter-spacing: 10px;
+}
+
+.navbar-brand.logo{
+  padding: 0px;
+  margin: 0px;
+}
+
+.navtitle{
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-right: 170px;
+  font-family: 'Bebas Neue';
+  color: #483838;
+}
+.blank{
+  width: 230px;
+}
+.search{
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.cart{
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1000px){
+  .page-container{
+    flex-wrap: wrap;
+  }
+}
+
+.top{
+  display: flex;
+  height: 700px;
+  background: url('../image/shoes.JPG');
+  background-size: cover;
+}
+.one{
+  width: 33%;
+}
+.two{
+  width: 33%;
+}
+.three{
+  width: 34%;
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 20px;
+}
+.promo{
+  font-family:'Bebas Neue';
+  font-size: 120px;
+  color: #FDEEDC;
+
+}
